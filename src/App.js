@@ -1,14 +1,5 @@
 import "./App.css";
-import {
-  FaMoneyBillAlt,
-  FaShieldAlt,
-  FaRocket,
-  FaPlane,
-  FaInstagram,
-  FaFacebook,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 
 function App() {
   return (
@@ -69,7 +60,7 @@ function App() {
             </p>
           </div>
           <div className="header-img">
-            <img src="/robot.png" />
+            <img src="/robot.png" alt="robot" />
           </div>
         </div>
       </header>
@@ -99,7 +90,7 @@ function App() {
           </div>
           <div className="money-cards">
             <div className="money-card">
-              <img src="/star.png" width={50} />
+              <img src="/star.png" alt="star" width={50} />
               <h1>Rewards</h1>
               <p>
                 The best credit cards offer some tantalizing combinations of
@@ -107,7 +98,7 @@ function App() {
               </p>
             </div>
             <div className="money-card">
-              <img src="/shield.png" width={50} />
+              <img src="/shield.png" alt="shield" width={50} />
               <h1>100% Secured</h1>
               <p>
                 We take proactive steps make sure your information and
@@ -115,7 +106,7 @@ function App() {
               </p>
             </div>
             <div className="money-card">
-              <img src="/send.png" width={50} />
+              <img src="/send.png" alt="send" width={50} />
               <h1>Balance Transfer</h1>
               <p>
                 A balance transfer credit card can save you a lot of money in
