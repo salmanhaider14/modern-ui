@@ -21,10 +21,6 @@ body {
   align-items: center;
 }
 
-.header-content {
-  margin-top: 10rem;
-  margin-left: auto;
-}
 .header-container h1 {
   font-weight: 600;
   font-size: 5vw;
