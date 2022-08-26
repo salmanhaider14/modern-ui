@@ -23,6 +23,7 @@ body {
 
 .header-content {
   margin-top: 10rem;
+  margin-left: auto;
 }
 .header-container h1 {
   font-weight: 600;
