@@ -7,8 +7,8 @@ function App() {
       <header id="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              Navbar
+            <a class="navbar-brand" href="#header">
+              Easy Bank
             </a>
             <button
               class="navbar-toggler"
