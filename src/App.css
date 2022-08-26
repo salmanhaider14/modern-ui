@@ -25,7 +25,7 @@ body {
 }
 .header-container h1 {
   font-weight: 600;
-  font-size: 72px;
+  font-size: 5vw;
   line-height: 140%;
   /* or 101px */
 
@@ -35,7 +35,7 @@ body {
 }
 .header-container h1 span {
   font-weight: 600;
-  font-size: 72px;
+  font-size: 5vw;
   line-height: 140%;
   /* identical to box height, or 101px */
 
@@ -86,6 +86,7 @@ body {
   justify-content: center;
   list-style: none;
   width: 90%;
+  flex-wrap: wrap;
 }
 #stats ul li {
   margin-left: 50px;
