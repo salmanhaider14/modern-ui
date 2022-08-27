@@ -586,7 +586,6 @@ footer {
   }
   .money-card {
     width: 350px;
-    height: 70px;
     margin: 20px;
   }
   .money-card h1 {
@@ -594,7 +593,7 @@ footer {
   }
   .money-card p {
     font-size: 12px;
-    width: 300px;
+    width: 270px;
   }
   .about-card p {
     width: 250px;
