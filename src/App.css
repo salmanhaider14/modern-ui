@@ -20,10 +20,16 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
+.header-content {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
 .header-container h1 {
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 72px;
   line-height: 140%;
   /* or 101px */
 
@@ -33,7 +39,7 @@ body {
 }
 .header-container h1 span {
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 72px;
   line-height: 140%;
   /* identical to box height, or 101px */
 
@@ -55,7 +61,7 @@ body {
 }
 .header-container p {
   font-weight: 400;
-  font-size: 1.3vw;
+  font-size: 19px;
   line-height: 170%;
   /* or 31px */
 
@@ -140,7 +146,7 @@ body {
 
   letter-spacing: 0.01em;
   width: 622px;
-  height: 154px;
+
   color: #ffffff;
 }
 .money-content p {
@@ -524,4 +530,10 @@ footer {
   text-align: center;
   color: white;
   font-size: 25px;
+}
+
+@media all and (max-width: 920px) {
+  .header-content h1 {
+    font-size: 35px;
+  }
 }
