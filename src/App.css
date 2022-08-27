@@ -564,4 +564,24 @@ footer {
     width: 200px;
     line-height: 15px;
   }
+  .deal-content h1 {
+    font-size: 25px;
+    width: 250px;
+    line-height: 40px;
+  }
+  .deal-content p {
+    font-size: 10px;
+    width: 200px;
+    line-height: 15px;
+  }
+  .about-heading h1 {
+    font-size: 25px;
+    width: 250px;
+    line-height: 40px;
+  }
+  .about-heading p {
+    font-size: 10px;
+    width: 200px;
+    line-height: 15px;
+  }
 }
