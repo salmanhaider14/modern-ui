@@ -594,5 +594,9 @@ footer {
   }
   .money-card p {
     font-size: 12px;
+    width: 300px;
+  }
+  .about-card p {
+    width: 250px;
   }
 }
