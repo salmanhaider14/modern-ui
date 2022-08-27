@@ -111,7 +111,7 @@ function App() {
             </div>
             <div className="money-card">
               <img src="/send.png" alt="send" width={50} />
-              <h1>Balance Transfer</h1>
+              <h1 style={{ fontSize: "18px" }}>Balance Transfer</h1>
               <p>
                 A balance transfer credit card can save you a lot of money in
                 interest charges.
