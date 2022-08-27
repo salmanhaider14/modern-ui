@@ -536,6 +536,9 @@ footer {
   .header-content h1 {
     font-size: 25px;
   }
+  .header-content h1 span {
+    font-size: 25px;
+  }
   .header-content p {
     font-size: 10px;
     width: 250px;
