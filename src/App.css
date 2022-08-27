@@ -589,4 +589,10 @@ footer {
     height: 70px;
     margin: 20px;
   }
+  .money-card h1 {
+    font-size: 14px;
+  }
+  .money-card p {
+    font-size: 12px;
+  }
 }
