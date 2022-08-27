@@ -584,4 +584,9 @@ footer {
     width: 200px;
     line-height: 15px;
   }
+  .money-card {
+    width: 350px;
+    height: 70px;
+    margin: 20px;
+  }
 }
