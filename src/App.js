@@ -143,7 +143,7 @@ function App() {
             <button>Get Started</button>
           </div>
           <div className="deal-img">
-            <img src="/deal.png" alt="png" width={500} />
+            <img src="/deal.png" alt="png" width={350} />
           </div>
         </div>
       </section>

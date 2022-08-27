@@ -514,6 +514,7 @@ footer {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .footer-container li {
   margin: 20px;
@@ -549,6 +550,16 @@ footer {
     line-height: 40px;
   }
   .money-content p {
+    font-size: 10px;
+    width: 200px;
+    line-height: 15px;
+  }
+  .paypal-content h1 {
+    font-size: 25px;
+    width: 250px;
+    line-height: 40px;
+  }
+  .paypal-content p {
     font-size: 10px;
     width: 200px;
     line-height: 15px;
