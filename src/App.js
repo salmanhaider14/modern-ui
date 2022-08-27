@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#header">
               Easy Bank
@@ -221,16 +221,13 @@ function App() {
               <a href="#header">Home</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#checkout">Features</a>
             </li>
             <li>
-              <a href="#prices">Pricing</a>
+              <a href="#money">Solutions</a>
             </li>
             <li>
               <a href="#about">About Us</a>
-            </li>
-            <li>
-              <a href="#contact">Contact Us</a>
             </li>
           </ul>
           <h1>Copyright @ 2022 Salman Haider</h1>
