@@ -7,7 +7,7 @@ function App() {
       <header id="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#header">
+            <a class="navbar-brand ms-5" href="#header">
               Easy Bank
             </a>
             <button
@@ -22,15 +22,19 @@ function App() {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#header">
+                  <a
+                    class="nav-link active me-3"
+                    aria-current="page"
+                    href="#header"
+                  >
                     Home
                   </a>
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link active"
+                    class="nav-link active me-3"
                     aria-current="page"
                     href="#checkout"
                   >
@@ -38,12 +42,20 @@ function App() {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#money">
+                  <a
+                    class="nav-link active me-3"
+                    aria-current="page"
+                    href="#money"
+                  >
                     Solutions
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about">
+                  <a
+                    class="nav-link active me-5"
+                    aria-current="page"
+                    href="#about"
+                  >
                     About Us
                   </a>
                 </li>

@@ -101,6 +101,10 @@ body {
 
   color: #ffffff;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 #stats ul li span {
   font-weight: 400;
@@ -176,10 +180,14 @@ body {
   border-radius: 10px;
   font-size: 20px;
   border: none;
+  transition: all 0.2s;
+  color: #333333;
 }
 .money-content button:hover {
   transform: scale(1.1);
+  /* background: grey; */
   background: grey;
+  transition: all 0.2s;
 }
 .money-cards {
   display: flex;
@@ -193,11 +201,13 @@ body {
   padding: 1.3rem;
   margin: 2px;
   border-radius: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 .money-card:hover {
   background-color: rgba(45, 43, 53, 1);
   transform: scale(1.1);
-  transition: 0.2s;
+  transition: all 0.2s;
 }
 .money-card h1 {
   width: 170px;
@@ -372,6 +382,8 @@ body {
   position: relative;
   padding: 2rem;
   margin: 30px;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 .about-card:hover {
   background: linear-gradient(
@@ -383,7 +395,7 @@ body {
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
   transform: scale(0.8);
-  transition: 0.2s;
+  transition: all 0.2s;
 }
 
 .slash {
@@ -597,5 +609,11 @@ footer {
   }
   .about-card p {
     width: 250px;
+  }
+  #stats ul li {
+    font-size: 25px;
+  }
+  #stats ul li span {
+    font-size: 15px;
   }
 }
